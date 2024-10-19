@@ -1,6 +1,6 @@
-# Robotica
+# Robotică
 
-Proiect în cadrul universității la Robotica
+Proiect în cadrul universității la Robotică
 
 Acest proiect presupune simularea unei stații de încărcare pentru un vehicul electric folosind un sistem cu LED-uri și două butoane. Scopul principal este de a imita comportamentul unei stații reale, unde:
 
