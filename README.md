@@ -35,7 +35,15 @@ Acest proiect presupune simularea unei stații de încărcare pentru un vehicul 
 
 Acest setup va simula un proces de încărcare gradual și realist al unei stații de încărcare pentru vehicule electrice, oferind și funcționalități de oprire de urgență și resetare a stației.
 
-## Link
+## Linkuri utile
 
-Link către un video cu funcționalitatea montajului fizic:  
+### Imagini cu montajul fizic:
+![IMG_6384](https://github.com/user-attachments/assets/49e594c1-fc00-47fd-a6dc-30beeb680367)
+![IMG_6376](https://github.com/user-attachments/assets/b612f40a-f1b1-4d88-99b3-65e7161100df)
+![IMG_6377](https://github.com/user-attachments/assets/1023fcd1-688b-4c90-9f13-253281378602)
+
+### Schema electrică din Wokwi:
+![Schema electrică](https://github.com/user-attachments/assets/5026d21a-316e-46bd-a482-eddafa90f058)
+
+### Link către un video cu funcționalitatea montajului fizic:
 [Video Funcționalitate](https://youtu.be/VQHp67Lzuac)
