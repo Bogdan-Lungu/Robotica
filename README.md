@@ -25,7 +25,7 @@ Acest proiect presupune simularea unei stații de încărcare pentru un vehicul 
 
 - **8x Rezistoare**:  
   - 6x 330Ω pentru limitarea curentului prin LED-urile standard.  
-  - 2x 1KΩ pentru limitarea curentului prin LED-ul RGB.
+  - 2x 1KΩ pentru limitarea curentului prin butoane.
 
 - **Breadboard**:  
   Folosită pentru a conecta componentele într-un circuit fizic, fără a fi necesare lipituri.
