@@ -24,7 +24,7 @@ Acest proiect presupune simularea unei stații de încărcare pentru un vehicul 
   - **Buton Stop**: Apăsarea lungă oprește procesul de încărcare și resetează stația.
 
 - **8x Rezistoare**:  
-  - 6x 330Ω pentru limitarea curentului prin LED-urile standard.  
+  - 7x 330Ω pentru limitarea curentului prin LED-urile standard.  
   - 2x 1KΩ pentru limitarea curentului prin butoane.
 
 - **Breadboard**:  
