@@ -23,12 +23,12 @@ Acest proiect presupune simularea unei stații de încărcare pentru un vehicul 
   - **Buton Start**: Inițiază procesul de încărcare atunci când este apăsat scurt, dar nu face nimic dacă încărcarea este deja în desfășurare.  
   - **Buton Stop**: Apăsarea lungă oprește procesul de încărcare și resetează stația.
 
-- **8x Rezistoare**:  
+- **9x Rezistoare**:  
   - 7x 330Ω pentru limitarea curentului prin LED-urile standard.  
   - 2x 1KΩ pentru limitarea curentului prin butoane.
 
 - **Breadboard**:  
-  Folosită pentru a conecta componentele într-un circuit fizic, fără a fi necesare lipituri.
+  Folosită pentru a conecta componentele într-un circuit fizic
 
 - **Fire de conexiune**:  
   Fire folosite pentru a realiza legăturile electrice între componente și Arduino.
