@@ -29,7 +29,7 @@ void setup() {
   pinMode(buttonStart, INPUT);  // setam pinul butonului start ca intrare
   pinMode(buttonStop, INPUT);   // setam pinul butonului stop ca intrare
 
-  // station incepe libera (led verde aprins)
+  // statia incepe libera (led verde aprins)
   digitalWrite(ledRGB_G, HIGH);
   digitalWrite(ledRGB_R, LOW);
 
@@ -93,7 +93,7 @@ void loop() {
         } else {
           // dupa ce toate ledurile au clipit de 3 ori, le stingem si terminam procesul
           resetAllLEDs();
-          digitalWrite(ledRGB_G, HIGH);  // station devine libera (led verde aprins)
+          digitalWrite(ledRGB_G, HIGH);  // statia devine libera (led verde aprins)
           digitalWrite(ledRGB_R, LOW);   // stingem ledul rosu
           isCharging = false;            // incarcarea s-a terminat
           finalBlink = false;
@@ -109,8 +109,8 @@ void startCharging() {
   isCharging = true;            // setam flag-ul de incarcare
   nivel = 1;                    // incepem cu primul led
   lastUpdate = millis();         // initializam timpul curent
-  digitalWrite(ledRGB_G, LOW);   // stingem ledul verde (station ocupata)
-  digitalWrite(ledRGB_R, HIGH);  // aprindem ledul rosu (station ocupata)
+  digitalWrite(ledRGB_G, LOW);   // stingem ledul verde  
+  digitalWrite(ledRGB_R, HIGH);  // aprindem ledul rosu  
 }
 
 void blinkLED(int level) {
@@ -192,6 +192,6 @@ void emergencyStop() {
   }
 
   resetAllLEDs();              // stingem toate ledurile
-  digitalWrite(ledRGB_G, HIGH); // led verde aprins (station libera)
-  digitalWrite(ledRGB_R, LOW);  // led rosu stins (station libera)
+  digitalWrite(ledRGB_G, HIGH); // led verde aprins 
+  digitalWrite(ledRGB_R, LOW);  // led rosu stins  
 }
