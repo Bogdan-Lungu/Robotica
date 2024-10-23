@@ -18,6 +18,13 @@ bool finalBlink = false;           // indicator pentru faza finala de clipire a 
 unsigned long buttonStopPressedTime = 0; // momentul cand butonul stop a fost apasat
 bool stopButtonHeld = false;       // indicator pentru apasarea lunga a butonului stop
 
+// variabile pentru debounce
+unsigned long lastDebounceTimeStart = 0; // timpul ultimei schimbări de stare pentru butonul de start
+unsigned long lastDebounceTimeStop = 0;  // timpul ultimei schimbări de stare pentru butonul de stop
+const unsigned long debounceDelay = 50;   // întârzierea pentru debounce (50 ms)
+int lastButtonStateStart = HIGH;           // starea anterioară a butonului de start
+int lastButtonStateStop = HIGH;            // starea anterioară a butonului de stop
+
 void setup() {
   // setam pinii ledurilor ca iesiri
   pinMode(led1, OUTPUT);
@@ -43,26 +50,38 @@ void loop() {
   int buttonStateStop = digitalRead(buttonStop);    // citim butonul stop
   unsigned long currentMillis = millis();           // timpul curent
 
-  // daca butonul start este apasat si nu se incarca deja, incepem incarcarea
-  if (buttonStateStart == LOW && !isCharging) {
-    startCharging();
+  // debounce pentru butonul de start
+  if (buttonStateStart != lastButtonStateStart) {
+    lastDebounceTimeStart = currentMillis; // resetam timpul de debounce
   }
+  if ((currentMillis - lastDebounceTimeStart) > debounceDelay) {
+    if (buttonStateStart == LOW && !isCharging) {
+      startCharging(); // pornim incarcarea
+    }
+  }
+  lastButtonStateStart = buttonStateStart; // actualizam starea anterioara
 
-  // verificam daca butonul stop este apasat si se incarca sistemul
-  if (buttonStateStop == LOW && isCharging) {
-    if (!stopButtonHeld) {
-      // daca nu este deja apasat, memoram timpul apasarii
-      buttonStopPressedTime = currentMillis;
-      stopButtonHeld = true;
-    } else if (currentMillis - buttonStopPressedTime >= 1000) {
-      // daca butonul este tinut apasat mai mult de 1 secunda, declansam oprirea de urgenta
-      emergencyStop();
-      stopButtonHeld = false;  // resetam indicatorul de apasare
+  // debounce pentru butonul de stop
+  if (buttonStateStop != lastButtonStateStop) {
+    lastDebounceTimeStop = currentMillis; // resetăm timpul de debounce
+  }
+  if ((currentMillis - lastDebounceTimeStop) > debounceDelay) {
+    if (buttonStateStop == LOW && isCharging) {
+      if (!stopButtonHeld) {
+        // daca nu este deja apasat, memoram timpul apasarii
+        buttonStopPressedTime = currentMillis;
+        stopButtonHeld = true;
+      } else if (currentMillis - buttonStopPressedTime >= 1000) {
+        // daca butonul este tinut apasat mai mult de 1 secunda, declansam oprirea de urgenta
+        emergencyStop();
+        stopButtonHeld = false;  // resetam indicatorul de apasare
+      }
     }
   } else {
     // daca butonul nu este apasat, resetam starea butonului stop
     stopButtonHeld = false;
   }
+  lastButtonStateStop = buttonStateStop; // actualizăm starea anterioară
 
   // gestionam procesul de clipire si aprindere a ledurilor daca incarcarea a inceput
   if (isCharging) {
