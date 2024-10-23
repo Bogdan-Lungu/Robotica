@@ -21,9 +21,9 @@ bool stopButtonHeld = false;       // indicator pentru apasarea lunga a butonulu
 // variabile pentru debounce
 unsigned long lastDebounceTimeStart = 0; // timpul ultimei schimbări de stare pentru butonul de start
 unsigned long lastDebounceTimeStop = 0;  // timpul ultimei schimbări de stare pentru butonul de stop
-const unsigned long debounceDelay = 50;   // întârzierea pentru debounce (50 ms)
-int lastButtonStateStart = HIGH;           // starea anterioară a butonului de start
-int lastButtonStateStop = HIGH;            // starea anterioară a butonului de stop
+const unsigned long debounceDelay = 50;   // intarzierea pentru debounce (50 ms)
+int lastButtonStateStart = HIGH;           // starea anterioara a butonului de start
+int lastButtonStateStop = HIGH;            // starea anterioara a butonului de stop
 
 void setup() {
   // setam pinii ledurilor ca iesiri
@@ -63,7 +63,7 @@ void loop() {
 
   // debounce pentru butonul de stop
   if (buttonStateStop != lastButtonStateStop) {
-    lastDebounceTimeStop = currentMillis; // resetăm timpul de debounce
+    lastDebounceTimeStop = currentMillis; // resetam timpul de debounce
   }
   if ((currentMillis - lastDebounceTimeStop) > debounceDelay) {
     if (buttonStateStop == LOW && isCharging) {
