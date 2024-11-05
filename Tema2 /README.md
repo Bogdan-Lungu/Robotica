@@ -32,6 +32,6 @@ Acest proiect este un joc asemănător cu TypeRacer, creat folosind un microcont
    [Video Funcționalitate](https://youtu.be/example_video_link)
 
 5. **Schema electrică (realizată în Wokwi, TinkerCAD etc.):**  
-   ![Schema electrică](https://github.com/user-attachments/assets/example_schema.png)
+   <img width="731" alt="image" src="https://github.com/user-attachments/assets/bc9af654-7275-4183-b234-75951467c43c">
 
 Acest setup simulează un joc de tip TypeRacer, unde utilizatorul poate să selecteze dificultatea, să inițieze jocul și să fie ghidat de feedback-ul vizual al LED-ului RGB pentru a vedea dacă introduce cuvintele corect sau greșit.
