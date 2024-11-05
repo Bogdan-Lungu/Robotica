@@ -9,7 +9,7 @@ const int blue_pin = 4;         // pin pentru led albastru
 const int button_start_pin = 3;         // pin pentru butonul de start
 const int button_difficulty_pin = 2;    // pin pentru butonul de dificultate
 
-// variabile pentru starea jocului si timpi
+// variabile 
 int difficulty = 0;                    // nivelul de dificultate: 0 - usor, 1 - mediu, 2 - greu
 unsigned long previous_millis = 0;      // momentul ultimei afisari a unui cuvant nou
 unsigned long round_start_millis = 0;   // momentul de inceput al rundei
@@ -25,8 +25,8 @@ String current_word = "";               // cuvantul curent de tastat
 String input_word = "";                 // cuvantul introdus de jucator
 
 // variabile pentru debouncing la butoane
-unsigned long last_debounce_start = 0;       // temporizator debounce pentru butonul de start
-unsigned long last_debounce_difficulty = 0;  // temporizator debounce pentru butonul de dificultate
+unsigned long last_debounce_start = 0;       // debounce pentru butonul de start
+unsigned long last_debounce_difficulty = 0;  // debounce pentru butonul de dificultate
 const int debounce_delay = 50;               // intarzierea pentru debounce in milisecunde
 
 // starea butoanelor
