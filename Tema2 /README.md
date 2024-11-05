@@ -25,11 +25,12 @@ Acest proiect este un joc asemănător cu TypeRacer, creat folosind un microcont
 3. **Imagini cu montajul fizic:**  
    Inserate imagini cu circuitul și setup-ul fizic.
 
-   ![Setup fizic - imagine 1](https://github.com/user-attachments/assets/example_image1.png)
-   ![Setup fizic - imagine 2](https://github.com/user-attachments/assets/example_image2.png)
+![WhatsApp Image 2024-11-05 at 20 01 44](https://github.com/user-attachments/assets/16ad82c1-c130-4063-803f-1b3e39741a55)
+![WhatsApp Image 2024-11-05 at 20 01 44 (1)](https://github.com/user-attachments/assets/c5ebed40-3c5c-436a-bac8-6c589e02d889)
 
 4. **Link/Video cu funcționalitatea montajului fizic:**  
-   [Video Funcționalitate](https://youtu.be/example_video_link)
+   
+https://youtu.be/QEq29qdZsNQ
 
 5. **Schema electrică (realizată în Wokwi, TinkerCAD etc.):**  
    <img width="731" alt="image" src="https://github.com/user-attachments/assets/bc9af654-7275-4183-b234-75951467c43c">
