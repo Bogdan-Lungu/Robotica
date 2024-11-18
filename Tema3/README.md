@@ -40,11 +40,11 @@ Acest proiect este un joc de reflexe competitiv pentru doi jucători, creat folo
    ![IMG_6150](https://github.com/user-attachments/assets/5cc997ee-794d-47c0-ae01-136c27cfb044)
    ![IMG_6151](https://github.com/user-attachments/assets/7028391f-752e-42de-934b-5fc1a6c9e0fc)
    
-5. **Link/Video cu funcționalitatea montajului fizic:**  
+5. **Link/Video cu funcționalitatea montajului:**  
 
    https://youtu.be/MrwdkebMvNk
 
-6. **Schema electrică (realizată în Wokwi, TinkerCAD etc.):**  
+6. **Schema electrică:**  
 
    ![tema3 - final (2)](https://github.com/user-attachments/assets/1dc17c8c-db75-4282-8fa3-67128b410de8)
 
