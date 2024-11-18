@@ -33,18 +33,19 @@ Acest proiect este un joc de reflexe competitiv pentru doi jucători, creat folo
 
 
 3. **Imagini cu montajul fizic:**  
-   (Inserați imagini ale setup-ului fizic cu detalii clare ale componentelor conectate)
 
-   ![Imagine 1](https://github.com/user-attachments/assets/example1)
-   ![Imagine 2](https://github.com/user-attachments/assets/example2)
+   ![IMG_6148](https://github.com/user-attachments/assets/cb70eb5f-7006-46d8-bcb9-5771cbc899f4)
+   ![IMG_6150](https://github.com/user-attachments/assets/5cc997ee-794d-47c0-ae01-136c27cfb044)
+   ![IMG_6151](https://github.com/user-attachments/assets/7028391f-752e-42de-934b-5fc1a6c9e0fc)
+   
+5. **Link/Video cu funcționalitatea montajului fizic:**  
 
-4. **Link/Video cu funcționalitatea montajului fizic:**  
-   (Adăugați link-ul către un video care arată cum funcționează montajul)
+   https://youtu.be/MrwdkebMvNk
 
-   https://youtu.be/exemplu-video
+6. **Schema electrică (realizată în Wokwi, TinkerCAD etc.):**  
 
-5. **Schema electrică (realizată în Wokwi, TinkerCAD etc.):**  
-   ![Schema Electrică](https://github.com/user-attachments/assets/example-schema)
+   ![tema3 - final (2)](https://github.com/user-attachments/assets/1dc17c8c-db75-4282-8fa3-67128b410de8)
+
 
    **Descriere schemă:** Schema electrică ilustrează conexiunile dintre componente: LED-urile, butoanele, LCD-ul, servomotorul și cele două plăci Arduino UNO.
 
