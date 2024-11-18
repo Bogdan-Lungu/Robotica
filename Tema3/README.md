@@ -1,5 +1,7 @@
 # Quicktime - Joc de Reflexe cu Arduino
 
+### Coechipier: [@DimaAndreea](https://github.com/DimaAndreea/Robotica)
+
 Proiect realizat în cadrul cursului de Robotică
 
 Acest proiect este un joc de reflexe competitiv pentru doi jucători, creat folosind microcontrollere Arduino UNO, LED-uri RGB, butoane, un ecran LCD, și alte componente electronice. Scopul jocului este ca fiecare jucător să reacționeze cât mai rapid la semnalele luminoase și să apese butonul corect pentru a obține puncte. Jucătorul cu cel mai mare punctaj la finalul jocului este declarat câștigător.
@@ -46,14 +48,6 @@ Acest proiect este un joc de reflexe competitiv pentru doi jucători, creat folo
 
    ![tema3 - final (2)](https://github.com/user-attachments/assets/1dc17c8c-db75-4282-8fa3-67128b410de8)
 
-
    **Descriere schemă:** Schema electrică ilustrează conexiunile dintre componente: LED-urile, butoanele, LCD-ul, servomotorul și cele două plăci Arduino UNO.
 
-## Funcționalități Extra (Bonus)
-
-- **Animație pe LCD:** Jocul poate începe cu o animație de bun venit afișată pe ecranul LCD.
-- **Buzzer pentru Sunete:** Buzzerul poate semnaliza răspunsurile corecte sau greșite, începutul și finalul jocului sau poate reda un theme song.
-- **Personalizare Jucători:** Jucătorii pot introduce numele folosind o interfață simplă bazată pe butoane sau prin comunicare serială.
-
-Această documentație oferă toate informațiile esențiale pentru înțelegerea și reproducerea proiectului.
 
