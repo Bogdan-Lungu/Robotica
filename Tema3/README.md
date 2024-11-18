@@ -18,12 +18,19 @@ Acest proiect este un joc de reflexe competitiv pentru doi jucători, creat folo
 2. **Componentele utilizate:**
    - **6x LED-uri Individuale:** Grupate în câte 3 pentru fiecare jucător, fiecare LED având o culoare diferită.
    - **2x LED RGB:** Un LED pentru fiecare jucător, utilizat pentru afișarea semnalelor de culoare pe parcursul rundelor.
-   - **6x Butoane:** 3 butoane pentru fiecare jucător, fiecare asociat unui LED de o anumită culoare.
    - **1x LCD:** Ecran pentru afișarea punctajelor și a mesajelor jocului.
+   - **1x Buzzer:** Pentru semnalizarea răspunsurilor corecte/greșite și alte sunete de joc.
+   - **1x Potențiometru:** Pentru ajustarea contrastului LCD-ului.
+   - **6x Butoane:** 3 butoane pentru fiecare jucător, fiecare asociat unui LED de o anumită culoare.
+   - **1x Buton de Start:** Dedicat pentru inițierea jocului.
    - **1x Servomotor:** Indică progresul jocului prin rotație.
-   - **2x Breadboard:** Pentru montarea componentelor electronice.
    - **2x Arduino UNO:** Pentru gestionarea componentelor și logica jocului.
+   - **2x Breadboard:** Unul mare și unul mic pentru montarea componentelor electronice.
+   - **8x Rezistoare de 1k Ohmi:** Pentru butoane.
+   - **1x Rezistor de 100 Ohmi:** Pentru buzzer.
+   - **13x Rezistoare de 220 Ohmi:** 6 pentru LED-urile normale, 6 pentru LED-urile RGB și 1 pentru LCD.
    - **Fire de legătură:** Pentru conexiunile necesare între componente.
+
 
 3. **Imagini cu montajul fizic:**  
    (Inserați imagini ale setup-ului fizic cu detalii clare ale componentelor conectate)
